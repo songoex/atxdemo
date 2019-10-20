@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-@Author  : xinxi
+@Author  : ggsimi
 @Time    : 2018/12/5 18:34
 @describe: 测试消息中心
 """
