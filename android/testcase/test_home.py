@@ -7,8 +7,6 @@
 @describe: 测试首页
 """
 import pytest,time,allure,sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
 from android.module.home import Home
 from tools.loggers import JFMlogging
 logger = JFMlogging().getloger()

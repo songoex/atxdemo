@@ -12,10 +12,11 @@ import allure
 from allure_commons._allure import attach
 # from allure.constants import AttachmentType
 from allure_commons.types import AttachmentType
+from imp import reload
 import subprocess,base64
 sys.path.append("..")
 reload(sys)
-sys.setdefaultencoding("utf-8")
+# sys.setdefaultencoding("utf-8")
 from tools.loggers import JFMlogging
 from config import *
 logger = JFMlogging().getloger()
